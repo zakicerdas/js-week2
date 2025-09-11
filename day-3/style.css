@@ -1,0 +1,32 @@
+.glow {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: neon 1.5s ease-in-out infinite alternate;
+}
+body {
+    background-image: url("/day-3/assets/maskedFool.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+@keyframes neon {
+    from {
+        text-shadow:
+            0 0 5px #ffb347,
+            0 0 10px #ffcc80,
+            0 0 20px #f7cac9,
+            0 0 40px #e0bbff;
+    }
+    to {
+        text-shadow:
+            0 0 10px #ffb6b9,
+            0 0 20px #fae3d9,
+            0 0 30px #bbded6,
+            0 0 50px #8ac6d1,
+            0 0 100px #b2f7ef;
+    }}
