@@ -1,0 +1,1 @@
+export function lingkaran(r){ return Math.PI * r * r;}

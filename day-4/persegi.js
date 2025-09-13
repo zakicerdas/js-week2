@@ -1,0 +1,1 @@
+export function persegi(sisi1, sisi2) { return sisi1 + sisi2; }
